@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="TestNGTest">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="TestNG.libraryclasspath">
+        <pathelement location="../../softwares/adt-bundle-windows-x86_64-20131030/adt-bundle-windows-x86_64-20131030/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar"/>
+    </path>
+    <path id="TestNGTest.classpath">
+        <pathelement location="bin"/>
+        <path refid="TestNG.libraryclasspath"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/selenium-java-2.43.0.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/selenium-java-2.43.0-srcs.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/apache-mime4j-0.6.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/bsh-1.3.0.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/cglib-nodep-2.1_3.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/commons-codec-1.9.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/commons-collections-3.2.1.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/commons-exec-1.1.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/commons-io-2.4.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/commons-jxpath-1.3.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/commons-lang3-3.3.2.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/commons-logging-1.1.3.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/cssparser-0.9.14.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/guava-15.0.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/hamcrest-core-1.3.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/hamcrest-library-1.3.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/htmlunit-2.15.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/htmlunit-core-js-2.15.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/httpclient-4.3.4.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/httpcore-4.3.2.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/httpmime-4.3.4.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/ini4j-0.5.2.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/jcommander-1.29.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/jetty-websocket-8.1.8.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/jna-3.4.0.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/jna-platform-3.4.0.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/json-20080701.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/junit-dep-4.11.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/nekohtml-1.9.21.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/netty-3.5.7.Final.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/operadriver-1.5.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/phantomjsdriver-1.1.0.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/protobuf-java-2.4.1.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/sac-1.3.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/serializer-2.7.1.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/testng-6.8.5.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/xalan-2.7.1.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/xercesImpl-2.11.0.jar"/>
+        <pathelement location="C:/Users/Amit/Desktop/checkout_folder/selenium-2.43.0/libs/xml-apis-1.4.01.jar"/>
+        <pathelement location="../AirIndia/POMAirIndia.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="TestNGTest.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+</project>
